@@ -109,6 +109,7 @@ img {
     text-align: center;
 }
 
+/* for dark bg */
 .main-header::before{
     content: '';
     position: absolute;
