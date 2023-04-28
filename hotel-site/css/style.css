@@ -172,3 +172,22 @@ img {
     opacity: .8;
     cursor: pointer;
 }
+
+/* cards */
+.card{
+    color: #fff;
+    font-weight: 700;
+}
+
+.card-body{
+    padding: 2rem;
+}
+
+/* teams */
+.teams img{
+    border-radius: 50%;
+}
+
+.teams img:hover{
+    opacity: .7;
+}
