@@ -166,3 +166,9 @@ img {
 .about p{
     margin: 2rem 0;
 }
+
+/* gallery */
+.gallery img:hover{
+    opacity: .8;
+    cursor: pointer;
+}
