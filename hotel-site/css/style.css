@@ -8,6 +8,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -97,6 +98,11 @@ img {
     height: 100vh;
     color: #fff;
     position: relative;
+}
+
+.main-header.blog{
+    background-image: url(../img/bg-2.jpeg);
+    height: 50vh;
 }
 
 .main-header .content
@@ -222,6 +228,16 @@ img {
     font-size: 4rem;
 }
 
+/* article */
+.articles{
+    padding: 3rem 5rem;
+}
+
+.article{
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
 /* footer */
 .footer{
     display: flex;
@@ -247,6 +263,10 @@ img {
         font-size: 9px;
     }
 
+    .main-header.blog{
+        height: 30vh;
+    }
+
     .navbar{
         flex-direction: column;
         height: 120px;
@@ -261,12 +281,17 @@ img {
     .teams img{
         width: 70%;
     }
+    
 }
 
-@media (max-width: 500px){
+@media (max-width: 576px){
     html{
         font-size: 8px;
         ;
+    }
+
+    .main-header.blog{
+        height: 18vh;
     }
     
     .navbar{
