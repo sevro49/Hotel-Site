@@ -240,3 +240,48 @@ img {
 .footeer a:hover{
     opacity: .7;
 }
+
+/* mobile */
+@media (max-width: 768px){
+    html{
+        font-size: 9px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a{
+        padding: 10px;
+        margin: 0 3px;
+    }
+
+    .teams img{
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px){
+    html{
+        font-size: 8px;
+        ;
+    }
+    
+    .navbar{
+        height: 100px;
+        padding: 15px
+    }
+
+    .navbar a{
+        padding: 8px;
+        margin: 0 2px;
+    }
+
+    .teams img{
+        width: 60%;
+    }
+    
+}
+

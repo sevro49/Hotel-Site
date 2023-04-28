@@ -147,8 +147,6 @@
     height: 100%;
 }
 
-
-
 /* flex grid */
 .flex-grid .row{
     display: flex;
@@ -179,3 +177,34 @@
 .section-padding{
     padding: 2rem 2rem 4rem;
 }
+
+/* mobile */
+@media (max-width: 768px){
+   .flex-items{
+    flex-direction: column;
+   }
+
+    .flex-items > div{
+    padding: 10px;
+    }
+
+   .flex-columns .column{
+    flex: 100%;
+   }
+
+   .flex-grid .column{
+    flex: 50%;
+   }
+   
+}
+
+@media (max-width: 576px){
+    .flex-grid .column{
+        flex: 100%;
+    }
+
+    .flex-items > div{
+        padding: 8px;
+    }
+}
+
