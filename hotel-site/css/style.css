@@ -263,6 +263,14 @@ img {
         font-size: 9px;
     }
 
+    .main-header .content h1{
+        font-size: 4rem;
+    }
+
+    .main-header .content p{
+        font-size: 2rem;
+    }
+
     .main-header.blog{
         height: 30vh;
     }
@@ -288,6 +296,14 @@ img {
     html{
         font-size: 8px;
         ;
+    }
+
+    .main-header .content h1{
+        font-size: 3rem;
+    }
+
+    .main-header .content p{
+        font-size: 1.6rem;
     }
 
     .main-header.blog{
